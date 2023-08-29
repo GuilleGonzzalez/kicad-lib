@@ -22,7 +22,7 @@
   (pad "3" thru_hole circle (at 9.4 0) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 3ed9cd50-c183-44df-a270-80dded2fd47d))
   (pad "4" thru_hole circle (at 11.9 0) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp a9baa58e-8769-4c43-9714-9d420346f310))
   (model "${KIPRJMOD}/lib/kicad-lib/3dmodels/HLK-2M05.step"
-    (offset (xyz 15 -8 0))
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
