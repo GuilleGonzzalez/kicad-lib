@@ -1,0 +1,145 @@
+(footprint "BMP581" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<h3>LGA10</h3><p>Specifications:<ul><li>Pin count: 10</li><li>Pin pitch: .5mm</li><li>Area: 2.0 x 2.0 mm</li></ul></p><p><a href=https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf>Datasheet referenced for footprint</a></p>")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -1.778) (layer "F.SilkS")
+      (effects (font (size 0.48 0.48) (thickness 0.15)))
+    (tstamp 598086a7-757c-4c6e-905c-c13cfcf00482)
+  )
+  (fp_text value "BMP581" (at 0 1.778) (layer "F.Fab")
+      (effects (font (size 0.48 0.48) (thickness 0.15)))
+    (tstamp 9255dcc0-46ec-43e0-9cb4-62dd1b36df7e)
+  )
+  (fp_poly
+    (pts
+      (xy -0.875 -0.6)
+      (xy -0.65 -0.6)
+      (xy -0.65 -0.4)
+      (xy -0.875 -0.4)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp d747d299-3227-4acd-b009-df8ff37ae412))
+  (fp_poly
+    (pts
+      (xy -0.875 -0.1)
+      (xy -0.65 -0.1)
+      (xy -0.65 0.1)
+      (xy -0.875 0.1)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 0ff51866-0773-4b7b-bc2d-c5dcdf6d82cb))
+  (fp_poly
+    (pts
+      (xy -0.875 0.4)
+      (xy -0.65 0.4)
+      (xy -0.65 0.6)
+      (xy -0.875 0.6)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp dc879706-86f3-4fed-94e8-3ac24b2f3505))
+  (fp_poly
+    (pts
+      (xy -0.3625 -0.8625)
+      (xy -0.1375 -0.8625)
+      (xy -0.1375 -0.6625)
+      (xy -0.3625 -0.6625)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 893be89e-4efc-401c-9420-00084857be94))
+  (fp_poly
+    (pts
+      (xy -0.3625 0.6625)
+      (xy -0.1375 0.6625)
+      (xy -0.1375 0.8625)
+      (xy -0.3625 0.8625)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp a7c2b866-c8d3-43fb-bd40-350bddb4f6c3))
+  (fp_poly
+    (pts
+      (xy 0.1375 -0.8625)
+      (xy 0.3625 -0.8625)
+      (xy 0.3625 -0.6625)
+      (xy 0.1375 -0.6625)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 24571405-8118-45a7-86f3-600bac92c693))
+  (fp_poly
+    (pts
+      (xy 0.1375 0.6625)
+      (xy 0.3625 0.6625)
+      (xy 0.3625 0.8625)
+      (xy 0.1375 0.8625)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 564a0f27-0313-4074-9c89-96f30ce10fb2))
+  (fp_poly
+    (pts
+      (xy 0.65 -0.6)
+      (xy 0.875 -0.6)
+      (xy 0.875 -0.4)
+      (xy 0.65 -0.4)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 2f83ecd7-9110-4bac-9823-719c25ba1509))
+  (fp_poly
+    (pts
+      (xy 0.65 -0.1)
+      (xy 0.875 -0.1)
+      (xy 0.875 0.1)
+      (xy 0.65 0.1)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 9127f7ad-3ee2-4853-b08e-75aac8caeec2))
+  (fp_poly
+    (pts
+      (xy 0.65 0.4)
+      (xy 0.875 0.4)
+      (xy 0.875 0.6)
+      (xy 0.65 0.6)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp a92d34e8-74a4-46a7-a6e8-0d92bc472423))
+  (fp_line (start -1.1 -1.1) (end 1.1 -1.1)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp e65161ba-32c6-4adc-b1e3-8e8fc40b7cc0))
+  (fp_line (start -1.1 1.1) (end -1.1 -1.1)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp c7ffae55-8382-4b13-ab61-65a7c846e0e2))
+  (fp_line (start 1.1 -1.1) (end 1.1 1.1)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp f78b4f35-c17b-4605-86a5-4de0c2d0cc9b))
+  (fp_line (start 1.1 1.1) (end -1.1 1.1)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp e9f14411-3e3b-45ac-83c9-b4dd0de129da))
+  (fp_circle (center 1.282 -1.258) (end 1.327253 -1.258)
+    (stroke (width 0.175) (type solid)) (fill none) (layer "F.SilkS") (tstamp 6642d6ff-cc4d-43d8-94d7-2588eccaecd6))
+  (fp_poly
+    (pts
+      (xy -1.2 -1.2)
+      (xy 1.2 -1.2)
+      (xy 1.2 1.2)
+      (xy -1.2 1.2)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 71bdd9cb-7f43-4442-8e65-fe73f8f05655))
+  (fp_line (start -1.05 -1.05) (end 1.05 -1.05)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 9b1a5b99-4181-4394-8ee5-3709d53103c5))
+  (fp_line (start -1.05 1.05) (end -1.05 -1.05)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 60e5ec4c-5273-4105-807b-e18ac6a6aa30))
+  (fp_line (start 1.05 -1.05) (end 1.05 1.05)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp d79bd397-4701-4a4c-9c25-ce9c50616cc2))
+  (fp_line (start 1.05 1.05) (end -1.05 1.05)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 6e307dcd-52d1-4c7e-9f52-4c6527cd36a0))
+  (pad "1" smd rect (at 0.25 -0.7625) (size 0.25 0.275) (layers "F.Cu" "F.Mask") (tstamp 1712b266-cad9-42d9-9b98-2f1a6d0a9545))
+  (pad "2" smd rect (at -0.25 -0.7625) (size 0.25 0.275) (layers "F.Cu" "F.Mask") (tstamp 5e730aa0-b120-418a-935e-e255a7628c32))
+  (pad "3" smd rect (at -0.7625 -0.5) (size 0.275 0.25) (layers "F.Cu" "F.Mask") (tstamp 36a9a8f2-6731-4f2e-b27c-29b688b448b9))
+  (pad "4" smd rect (at -0.7625 0) (size 0.275 0.25) (layers "F.Cu" "F.Mask") (tstamp a05d0b0a-4004-4552-a2b2-95abd185f135))
+  (pad "5" smd rect (at -0.7625 0.5) (size 0.275 0.25) (layers "F.Cu" "F.Mask") (tstamp a58c7b03-5de9-45eb-85c5-4040b860cfca))
+  (pad "6" smd rect (at -0.25 0.7625) (size 0.25 0.275) (layers "F.Cu" "F.Mask") (tstamp e5ae0391-85ca-4664-9d4c-f05e5358f129))
+  (pad "7" smd rect (at 0.25 0.7625) (size 0.25 0.275) (layers "F.Cu" "F.Mask") (tstamp cd1c6c28-f506-4fcf-babb-00755cd937cf))
+  (pad "8" smd rect (at 0.7625 0.5) (size 0.275 0.25) (layers "F.Cu" "F.Mask") (tstamp 5d53c696-bee6-4c0f-acd8-072ffd8f5c80))
+  (pad "9" smd rect (at 0.7625 0) (size 0.275 0.25) (layers "F.Cu" "F.Mask") (tstamp 52f315ab-4be9-4e9a-bc28-a44835de385a))
+  (pad "10" smd rect (at 0.7625 -0.5) (size 0.275 0.25) (layers "F.Cu" "F.Mask") (tstamp 695b8c9a-a954-4b63-894b-0207befa4369))
+  (model "${KIPRJMOD}/lib/kicad-lib/3dmodels/BMP581.step"
+    (offset (xyz -1 -1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
