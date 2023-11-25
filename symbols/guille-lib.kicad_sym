@@ -1605,7 +1605,7 @@
       )
     )
     (symbol "SIM8060-6-0-14-00-A_1_1"
-      (pin power_in line (at -12.7 5.08 0) (length 2.54)
+      (pin input line (at -12.7 5.08 0) (length 2.54)
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "C1" (effects (font (size 1.27 1.27))))
       )
@@ -1617,7 +1617,7 @@
         (name "CLK" (effects (font (size 1.27 1.27))))
         (number "C3" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -12.7 -2.54 0) (length 2.54)
+      (pin input line (at -12.7 -2.54 0) (length 2.54)
         (name "GND1" (effects (font (size 1.27 1.27))))
         (number "C5" (effects (font (size 1.27 1.27))))
       )
