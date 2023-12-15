@@ -3,8 +3,8 @@
   (descr "SOD123-ren1")
   (tags "Diode")
   (attr smd)
-  (fp_text reference "D**" (at 0 -2) (layer "F.SilkS")
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
+  (fp_text reference "D**" (at 0 -1.7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6ca4a93e-c2c4-4a4b-9fdb-754411f1c6f4)
   )
   (fp_text value "SOD3716X145N" (at 0 -5.6) (layer "F.SilkS") hide

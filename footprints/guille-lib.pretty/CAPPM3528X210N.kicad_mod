@@ -3,8 +3,8 @@
   (descr "TPSB107K006R0250")
   (tags "Capacitor Polarised")
   (attr smd)
-  (fp_text reference "C**" (at 0 -2.7) (layer "F.SilkS")
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
+  (fp_text reference "C**" (at 0 -2.3) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 00bc3f44-c7ab-4522-976c-3689e27cc113)
   )
   (fp_text value "CAPPM3528X210N" (at 0 -6.5) (layer "F.SilkS") hide

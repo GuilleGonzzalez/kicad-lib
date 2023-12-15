@@ -4,7 +4,7 @@
   (tags "Crystal or Oscillator")
   (attr smd)
   (fp_text reference "Y**" (at 0 -2) (layer "F.SilkS")
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 78e1a6cd-5229-4e6d-8348-ca9a2b6ea435)
   )
   (fp_text value "SC32S7PF20PPM" (at 0 -4.8) (layer "F.SilkS") hide

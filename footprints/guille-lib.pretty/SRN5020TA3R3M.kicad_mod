@@ -4,7 +4,7 @@
   (tags "Inductor")
   (attr smd)
   (fp_text reference "L**" (at 0 -3.6) (layer "F.SilkS")
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a6877274-90e3-4e45-b919-14c2598629ec)
   )
   (fp_text value "SRN5020TA3R3M" (at 0 -6) (layer "F.SilkS") hide
