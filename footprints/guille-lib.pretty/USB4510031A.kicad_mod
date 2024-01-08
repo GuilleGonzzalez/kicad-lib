@@ -4,7 +4,7 @@
   (tags "Connector")
   (attr through_hole)
   (fp_text reference "J**" (at 8.9 0) (layer "F.SilkS")
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp daebb2c4-06d8-457f-bf23-2b14ccd29f6f)
   )
   (fp_text value "USB4510031A" (at 0 -8.8) (layer "F.SilkS") hide

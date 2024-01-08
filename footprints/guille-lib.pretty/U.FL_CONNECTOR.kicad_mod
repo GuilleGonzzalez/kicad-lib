@@ -4,7 +4,7 @@
   (tags "U.FL IPEX SMA connector")
   (attr smd)
   (fp_text reference "REF**" (at 0 2.9 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c064ce75-d451-42f0-9b8e-09689ee2b10d)
   )
   (fp_text value "U.FL_CONNECTOR" (at 0 -5.2 unlocked) (layer "F.Fab")
