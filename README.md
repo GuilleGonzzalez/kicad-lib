@@ -50,7 +50,7 @@ Create a directory in <PROJECT_DIRECTORY> for all the output files ```mkdir outp
 * Open the PCB file and run ```DRC```.
 * Generate the layout PDF in ```File -> Print...``` and save it in ```outputs``` directory as ```layout.pdf```.
 * Generate the STEP file in ```File -> Export -> STEP...``` and save it in ```outputs``` directory as ```3d.step```.
-* Generate the Gerber files. Detailed instructions for JLCPCB manufacturer are given in this [link](https://support.jlcpcb.com/article/194-how-to-generate-gerber-and-drill-files-in-kicad-6). Save it in ```outputs/gerbers```.
+* Generate the Gerber files. Detailed instructions for JLCPCB manufacturer are given in this [link](https://jlcpcb.com/help/article/362-how-to-generate-gerber-and-drill-files-in-kicad-7). Save it in ```outputs/gerbers```.
 * (OPTIONAL) Generate the pick and place files and save it in ```outputs```. An example can be found [here](https://www.lioncircuits.com/faq/pcb-assembly/how-to-export-Pick-and-Place-Files-using-KiCad).
     * Click on ```File -> Fabrication Outputs -> Component Placement (.pos)...```.
     * Format: ```csv```.
