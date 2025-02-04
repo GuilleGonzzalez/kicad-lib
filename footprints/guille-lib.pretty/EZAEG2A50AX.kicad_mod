@@ -1,0 +1,197 @@
+(footprint "EZAEG2A50AX"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "EZAEG2A")
+	(tags "Diode ESD (Bi-directional)")
+	(property "Reference" "D**"
+		(at 0 -1.3 0)
+		(layer "F.SilkS")
+		(uuid "2af4a405-146d-4230-9fc2-d3f4fd9aaafd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EZAEG2A50AX"
+		(at 0 -4.05 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "55b8beb2-0438-46f4-b5aa-2286cadd0a57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61eb3247-e2e8-4735-9a97-a42c5cf500a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d558985a-dd4d-4e59-aa9f-04b3282258d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f154f364-4035-40e6-a6f6-ab3d555d819f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.2 -0.1)
+		(end -1.2 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2cb9c20c-7c61-4331-b538-972aa041156c")
+	)
+	(fp_line
+		(start -1.2 0.1)
+		(end -1.2 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97a6588f-f666-42cf-931c-97973f6a0779")
+	)
+	(fp_arc
+		(start -1.2 -0.1)
+		(mid -1.1 0)
+		(end -1.2 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc3839d5-5ba6-4ea0-87c7-d1eac4dfb43e")
+	)
+	(fp_arc
+		(start -1.2 0.1)
+		(mid -1.3 0)
+		(end -1.2 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "386e7143-9eea-4699-9bf6-b4dc7c69db42")
+	)
+	(fp_rect
+		(start -1.5 -0.5)
+		(end 1.5 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9d5f9ada-151e-4fdd-9eea-10c8c9c3009a")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bec01aa0-a1b3-48d2-b05f-4c70d0bc0ffb")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "548fe324-be76-48c6-a986-642bea738f90")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ecbef17c-2345-45b2-8af8-489ff473db8e")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d4a15c1-cb85-4963-84b4-48486cc7688e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6.1 0)
+		(layer "F.Fab")
+		(uuid "2bcbb63e-27f1-4e55-aa50-32b6800a3076")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.525 0)
+		(size 0.475 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f40965ca-ef79-4282-8ecd-1e202cd0f08e")
+	)
+	(pad "2" smd roundrect
+		(at 0.525 0)
+		(size 0.475 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a4254ab9-8e5e-4d24-a961-faaf3c894ee7")
+	)
+	(model "${KIPRJMOD}/lib/kicad-lib/3dmodels/EZA-EG2A50AX.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
